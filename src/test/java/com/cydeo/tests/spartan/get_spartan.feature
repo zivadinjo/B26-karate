@@ -26,3 +26,6 @@ Feature: Spartan Rest API : get spartan test
     * def spartanId = response.id
     * print "spartan ID = " , spartanId
     * match spartanId == 2
+
+  Scenario: Search for spartan using query params
+    Given  header Accept = "application/json"
